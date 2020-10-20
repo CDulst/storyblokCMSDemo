@@ -1,0 +1,50 @@
+.recipe{
+width:40rem;
+height:50rem;
+background-color: white;
+
+margin: 4rem 3rem;
+}
+.info__container{
+display:flex;
+justify-content:center;
+}
+.info__wrapper{
+width:25rem;
+height:25rem;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:space-between;
+}
+.time__wrapper{
+    display:flex;
+    align-items:center;
+    width:25rem;
+    justify-content:space-between;
+}
+.recipe__title{
+    font-size:2rem;
+}
+.time{
+    font-size:1.5rem;
+}
+.clock__wrapper{
+    display:flex;
+    flex-direction: column;
+    width:5rem;
+    align-items: center;
+}
+.recipe__button{
+    text-decoration: none;
+    color:black;
+    font-size:1.8rem;
+    border: black solid 2px;
+    padding:1rem 7rem;
+    border-radius:2rem;
+}
+.recipe__button:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}

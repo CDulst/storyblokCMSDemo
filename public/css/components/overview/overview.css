@@ -1,0 +1,19 @@
+.recipes__title{
+    display:none;
+}
+.recipes{
+    margin-top:2rem;
+    display:flex;
+    justify-content:center;
+}
+.recipes__container{
+    width: 85vw;
+    height: 80vh;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    overflow:scroll;
+}
+.recipes__container::-webkit-scrollbar {
+    display: none;
+  }

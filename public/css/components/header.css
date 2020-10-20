@@ -1,0 +1,45 @@
+
+.header__container{
+    display:flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+.header__wrapper{
+    width:90vw;
+    border-top: solid white 0.2rem;
+    border-bottom: solid white 0.2rem;
+    border-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:10vh;
+}
+.header__space{
+    width:70vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.social__wrapper{
+    width:13vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:5rem;
+}
+.header__title{
+    color:white;
+    font-size:3rem;
+}
+.header__link{
+    text-decoration:none;
+    color:white;
+}
+.social__icon{
+    transition: ease-in-out 0.2s;
+    width:5rem;
+}
+.social__icon:hover{
+    width:7rem;
+    cursor:pointer;
+}
